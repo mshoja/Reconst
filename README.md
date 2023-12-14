@@ -3,8 +3,8 @@ This repository contains MATLAB codes to make inference about the parameters of 
 fits a Langevin model to data while the code LevyReconst.m fits a more complex stochastic model driven by a lévy noise. You can find more details on the models, the code inputs and outputs in the upper part of 
 the codes added as comments. In particular, this repository contains the codes and data for the following paper
 
-Stochastic regimes can hide the attractors in data, reconstruction algorithms can reveal them (under review)
-Babak M. S. Arani, Stephen R. Carpenter, Egbert H. van Nes, Ingrid A. van de Leemput, Chi Xu, Pedro G. Lind, and Marten Scheffer
+Stochastic regimes can hide the attractors in data, reconstruction algorithms can reveal them 
+Babak M. S. Arani, Stephen R. Carpenter, Egbert H. van Nes, Ingrid A. van de Leemput, Chi Xu, Pedro G. Lind, and Marten Scheffer (Under review)
 
 In order to generate Figures 2-5 in the above paper you should run the main code called Allfigures.m. The repository contains an ice-core calcium dataset Cadata.csv from the following link
 
