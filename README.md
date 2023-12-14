@@ -1,11 +1,12 @@
 # Reconst
-This repository contains MATLAB codes to make inference about the parameters of Langevin models as well as Levy-driven stochastic models.
-In particular this repository contains the codes and data for the following publication
+This repository contains MATLAB codes to make inference about the parameters of Langevin models as well as lévy-driven stochastic models using univariate time series of observations. The code LangevinReconst.m
+fits a Langevin model to data while the code LevyReconst.m fits a more complex stochastic model driven by a lévy noise. You can find more details on the models, the code inputs and outputs in the upper part of 
+the codes added as comments. In particular, this repository contains the codes and data for the following paper
 
-Stochastic regimes can hide the attractors in data, reconstruction algorithms can reveal them 
+Stochastic regimes can hide the attractors in data, reconstruction algorithms can reveal them (under review)
 Babak M. S. Arani, Stephen R. Carpenter, Egbert H. van Nes, Ingrid A. van de Leemput, Chi Xu, Pedro G. Lind, and Marten Scheffer
 
-In order to generate Figures 2-5 you should run the main code called Allfigures.m. The repository contains an ice-core calcium dataset Cadata.csv from the following link
+In order to generate Figures 2-5 in the above paper you should run the main code called Allfigures.m. The repository contains an ice-core calcium dataset Cadata.csv from the following link
 
 Fischer, Hubertus; Rasmussen, Sune Olander; Fuhrer, Katrin (2022): High-resolution impurity data from the GRIP ice core. PANGAEA, https://doi.org/10.1594/PANGAEA.942777
 
